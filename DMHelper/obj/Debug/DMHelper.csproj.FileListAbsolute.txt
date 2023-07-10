@@ -1,0 +1,16 @@
+C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\bin\Debug\DMHelper.exe.config
+C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\bin\Debug\DMHelper.exe
+C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\bin\Debug\DMHelper.pdb
+C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\DMHelper.csproj.AssemblyReference.cache
+C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\DMHelper.csproj.SuggestedBindingRedirects.cache
+C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\MainWindow.g.cs
+C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\App.g.cs
+C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\DMHelper_MarkupCompile.cache
+C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\DMHelper_MarkupCompile.lref
+C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\MainWindow.baml
+C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\DMHelper.g.resources
+C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\DMHelper.Properties.Resources.resources
+C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\DMHelper.csproj.GenerateResource.cache
+C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\DMHelper.csproj.CoreCompileInputs.cache
+C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\DMHelper.exe
+C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\DMHelper.pdb

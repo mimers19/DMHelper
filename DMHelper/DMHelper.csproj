@@ -101,10 +101,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Fonts\" />
     <Folder Include="MVVM\Model\" />
     <Folder Include="MVVM\ViewModel\" />
     <Folder Include="MVVM\View\" />
+    <Folder Include="Resources\Fonts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\MainMenuImg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

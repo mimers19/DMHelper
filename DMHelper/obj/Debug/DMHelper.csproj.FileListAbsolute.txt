@@ -14,3 +14,5 @@ C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\DMHelper.csproj.Genera
 C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\DMHelper.csproj.CoreCompileInputs.cache
 C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\DMHelper.exe
 C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\DMHelper.pdb
+C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\Theme\CustomButton.baml
+C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\App.baml

@@ -3,20 +3,46 @@
     <Style BasedOn="{StaticResource {x:Type Button}}"
            TargetType="{x:Type Button}"
            x:Key="CustomButton">
-
-        <Setter Property="Template">
-            <Setter.Value>
-                <ControlTemplate>
-                    <Button Height="45"
-                    Margin="20,10,20,10"
-                    FontSize="25"
-                    VerticalAlignment="Center"
-                    Style="{StaticResource CustomButton}">
-                        Wpisz coś
-                    </Button>
-                </ControlTemplate>
-            </Setter.Value>
-        </Setter>
+        <Style.Setters>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Button Height="45"
+                        Margin="20,10,20,10"
+                        FontSize="25"
+                        VerticalAlignment="Center"
+                        Content="{TemplateBinding Content}">
+                            <Button.Style>
+                                <Style TargetType="{x:Type Button}">
+                                    <Setter Property="Background" Value="#EB1C23"/>
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="{x:Type Button}">
+                                                <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1">
+                                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                </Border>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="Red"/>
+                                        </Trigger>
+                                        <Trigger Property="IsPressed" Value="True">
+                                            <Setter Property="Background" Value="DarkRed"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                            <Button.Resources>
+                                <Style TargetType="Border">
+                                    <Setter Property="CornerRadius" Value="10"/>
+                                </Style>
+                            </Button.Resources>
+                        </Button>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style.Setters>
     </Style>
 </ResourceDictionary>
-    

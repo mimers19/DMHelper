@@ -25,19 +25,19 @@
                 </RowDefinition>
             </Grid.RowDefinitions>
             <StackPanel>
-                <Image Source="Resources\Images\MainMenuImg.png"
-                       Margin="0,20,0,10"/>
+                <Image Source="\Resources\Images\MainMenuImg.png"
+                       Margin="0,20,0,10" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
                 <StackPanel VerticalAlignment="Center">
                 <Button Style="{StaticResource CustomButton}"
-                    Content="Rozpocznij sesję"/>
+                    Content="Rozpocznij sesję" Click="Rozpocznij_sesje_Click"/>
                     <Button Style="{StaticResource CustomButton}"
-                    Content="Stwórz sesję"/>
+                    Content="Stwórz sesję" Click="Stworz_sesje_Click"/>
                     <Button Style="{StaticResource CustomButton}"
-                    Content="Zarządzaj światami"/>
+                    Content="Zarządzaj światami" Click="Zarzadzaj_swiatami_Click"/>
                     <Button Style="{StaticResource CustomButton}"
-                    Content="Pomoc"/>
+                    Content="Pomoc" Click="Pomoc_Click"/>
                     <Button Style="{StaticResource CustomButton}"
-                    Content="Wyjście"/>
+                    Content="Wyjście" Click="Wyjscie_Click"/>
             </StackPanel>
             </StackPanel>
         </Grid>

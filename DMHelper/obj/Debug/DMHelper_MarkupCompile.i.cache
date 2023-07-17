@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\App.xaml
-2788680435
+5383753868
 
-8-190552815
+92064233063
 13-1310406943
-MainWindow.xaml;Theme\CustomButton.xaml;
+Theme\ListButton.xaml;Theme\Scroll.xaml;Windows\MainWindow.xaml;Theme\CustomButton.xaml;Windows\ZarzadzajSwiatamiWindow.xaml;
 
-False
+True
 

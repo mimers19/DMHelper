@@ -6,8 +6,11 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Theme/CustomButton.xaml"/>
-                <ResourceDictionary Source="Theme/ListButton.xaml"/>
+                <ResourceDictionary Source="Assets/CustomButton.xaml"/>
+                <ResourceDictionary Source="Assets/ListButton.xaml"/>
+                <ResourceDictionary Source="Assets/Scroll.xaml" />
+                <ResourceDictionary Source="Assets/WindowButton.xaml" />
+                <ResourceDictionary Source="Assets/WindowButton2.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

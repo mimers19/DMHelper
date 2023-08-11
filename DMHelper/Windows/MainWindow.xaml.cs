@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DMHelper.Windows;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -52,7 +53,9 @@ namespace DMHelper
 
         private void Zarzadzaj_swiatami_Click(object sender, RoutedEventArgs e)
         {
-
+            ZarzadzajSwiatamiWindow zarzadzajSwiatamiWindow = new ZarzadzajSwiatamiWindow();
+            zarzadzajSwiatamiWindow.Owner = this;
+            zarzadzajSwiatamiWindow.Show();
         }
 
         private void Pomoc_Click(object sender, RoutedEventArgs e)

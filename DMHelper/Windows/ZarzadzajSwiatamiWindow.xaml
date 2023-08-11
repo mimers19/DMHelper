@@ -1,35 +1,65 @@
-﻿<Window x:Class="DMHelper.MainWindow"
+﻿<Window x:Class="DMHelper.Windows.ZarzadzajSwiatamiWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:DMHelper"
+        xmlns:local="clr-namespace:DMHelper.Windows"
         mc:Ignorable="d"
-        WindowStyle="None"
-        WindowStartupLocation="CenterScreen"
-        ResizeMode="CanResize"
-        Background="Transparent"
-        AllowsTransparency="True"
-        Height="600" Width="800">
-    <Border Background="#222222"
-            CornerRadius="20">
+        WindowStyle="None" 
+        ResizeMode="NoResize" 
+        Background="Transparent" 
+        AllowsTransparency="True" 
+        Height="600" Width="1200" 
+        MouseDown="Window_MouseDown"
+        WindowStartupLocation="CenterOwner">
+    <Border Background="#222222" CornerRadius="20">
         <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
+                <ColumnDefinition Width="300" />
+                <ColumnDefinition />
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition/>
+                <RowDefinition Height="100" />
+                <RowDefinition />
             </Grid.RowDefinitions>
-            
-            <StackPanel>
-                <TextBlock Foreground="White"
-                           FontSize="25"
-                           Margin="20,20,10,20">Lista światów:</TextBlock>
-                <ScrollViewer Margin="40,10,40,10">
-                    <Button Style="{StaticResource ListButton}"
-                    Content="Nazwa świata 1"/>
-                </ScrollViewer>
+            <Image VerticalAlignment="Top" 
+                   HorizontalAlignment="Left" 
+                   Source="\Resources\Images\MainMenuImg.png"
+                   Margin="0,20,0,10" 
+                   Grid.Column="0" Grid.Row="0" />
+
+            <StackPanel Orientation="Horizontal" 
+                        Grid.Row="0" Grid.Column="1"
+                        VerticalAlignment="Top"
+                        HorizontalAlignment="Right">
+                <Button x:Name="btnMin" Style="{StaticResource WindowButton}" Content="_" HorizontalAlignment="Right" Width="35" Height="35" Foreground="White" Click="btnMin_Click" />
+                <Button x:Name="btnMax" Style="{StaticResource WindowButton}" Content="🗖" HorizontalAlignment="Right" Width="35" Height="35" Foreground="White" Click="btnMax_Click" />
+                <Button x:Name="btnClose" Style="{StaticResource WindowButton2}" Content="X" HorizontalAlignment="Right" Width="35" Height="35" Foreground="White" Click="btnClose_Click" />
             </StackPanel>
+            <ScrollViewer Grid.Column="0" Grid.Row="1" Margin="10">
+                <StackPanel>
+                    <Button Style="{StaticResource CustomButton}" Content="Stwórz sesję" />
+                    <Button Style="{StaticResource CustomButton}" Content="Stwórz sesję" />
+                    <Button Style="{StaticResource CustomButton}" Content="Stwórz sesję" />
+                    <Button Style="{StaticResource CustomButton}" Content="Stwórz sesję" />
+                    <Button Style="{StaticResource CustomButton}" Content="Stwórz sesję" />
+                    <Button Style="{StaticResource CustomButton}" Content="Stwórz sesję" />
+                    <Button Style="{StaticResource CustomButton}" Content="Stwórz sesję" />
+                    <Button Style="{StaticResource CustomButton}" Content="Stwórz sesję" />
+                    <Button Style="{StaticResource CustomButton}" Content="Stwórz sesję" />
+                    <Button Style="{StaticResource CustomButton}" Content="Stwórz sesję" />
+                    <Button Style="{StaticResource CustomButton}" Content="Stwórz sesję" />
+                    <Button Style="{StaticResource CustomButton}" Content="Stwórz sesję" />
+                    <Button Style="{StaticResource CustomButton}" Content="Stwórz sesję" />
+                    <Button Style="{StaticResource CustomButton}" Content="Stwórz sesję" />
+                    <Button Style="{StaticResource CustomButton}" Content="Stwórz sesję" />
+                    <Button Style="{StaticResource CustomButton}" Content="Stwórz sesję" />
+                    <Button Style="{StaticResource CustomButton}" Content="Stwórz sesję" />
+                    <Button Style="{StaticResource CustomButton}" Content="Stwórz sesję" />
+                    <Button Style="{StaticResource CustomButton}" Content="Stwórz sesję" />
+                </StackPanel>
+            </ScrollViewer>
+            
         </Grid>
     </Border>
 </Window>

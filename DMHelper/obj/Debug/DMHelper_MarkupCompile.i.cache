@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\obj\Debug\
+C:\Users\dell\OneDrive\Dokumenty\GitHub\DMHelper\DMHelper\obj\Debug\
 DMHelper
 none
 false
 DEBUG;TRACE
-C:\Users\dgo\Documents\GitHub\DMHelper\DMHelper\App.xaml
-5383753868
+C:\Users\dell\OneDrive\Dokumenty\GitHub\DMHelper\DMHelper\App.xaml
+7831338446
 
-92064233063
+71752351393
 13-1310406943
-Theme\ListButton.xaml;Theme\Scroll.xaml;Windows\MainWindow.xaml;Theme\CustomButton.xaml;Windows\ZarzadzajSwiatamiWindow.xaml;
+Assets\ListButton.xaml;Assets\Scroll.xaml;Assets\WindowButton.xaml;Assets\WindowButton2.xaml;Windows\MainWindow.xaml;Assets\CustomButton.xaml;Windows\ZarzadzajSwiatamiWindow.xaml;
 
 True
 

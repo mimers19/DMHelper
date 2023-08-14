@@ -1,7 +1,7 @@
 ﻿DMHelper
 
 
-winexe
+exe
 C#
 .cs
 C:\Users\dell\OneDrive\Dokumenty\GitHub\DMHelper\DMHelper\obj\Debug\
@@ -11,9 +11,9 @@ false
 DEBUG;TRACE
 C:\Users\dell\OneDrive\Dokumenty\GitHub\DMHelper\DMHelper\App.xaml
 7831338446
-
-6-460527285
-13-1310406943
+4450619758
+7-402595546
+34-1497764190
 Assets\ListButton.xaml;Assets\Scroll.xaml;Assets\WindowButton.xaml;Assets\WindowButton2.xaml;Windows\MainWindow.xaml;Assets\CustomButton.xaml;Windows\ZarzadzajSwiatamiWindow.xaml;
 
 False

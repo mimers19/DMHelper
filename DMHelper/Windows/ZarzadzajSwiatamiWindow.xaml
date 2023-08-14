@@ -27,7 +27,12 @@
                    Source="\Resources\Images\MainMenuImg.png"
                    Margin="0,20,0,10" 
                    Grid.Column="0" Grid.Row="0" />
-
+            <StackPanel Orientation="Horizontal" 
+                        Grid.Row="0" Grid.Column="1"
+                        VerticalAlignment="Center" HorizontalAlignment="Left">
+                <Button Style="{StaticResource CustomButton}" Content="Stwórz świat" Width="200" />
+                <Button Style="{StaticResource CustomButton}" Content="Usuń świat" Width="200"/>
+            </StackPanel>
             <StackPanel Orientation="Horizontal" 
                         Grid.Row="0" Grid.Column="1"
                         VerticalAlignment="Top"
